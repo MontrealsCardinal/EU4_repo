@@ -1,0 +1,76 @@
+body
+{
+	background-color: grey;
+	color: white;
+	background: url("background1.jpg") ;
+	background-size: cover;
+	
+}
+header
+{
+	border: 3px red;
+	background: url("header_DrapeauMTL.jpg") center no-repeat;
+	background-size: contain;
+	display: flex;
+	margin: auto;
+	padding: 10px;
+	height: 200px;
+	font: red;
+}
+
+/*Navigation */
+
+nav
+{
+	background:yellow center;
+	margin: auto;
+	width: 80%;
+}
+
+nav ul
+{
+	list-style-type:none;
+	display:flex;
+	flex-direction: line;
+	border: 3px solid black;
+	
+}
+
+nav li
+{
+	margin:auto;
+}
+
+section
+{
+	background:black;
+	opacity:0.5;
+}
+footer
+{
+	background:white;
+	text-align:center;
+}
+
+a:visited
+{
+	color:red;
+}
+a:hover
+{
+	font-weight: bold;
+}
+
+p
+{
+	color: grey;
+	font-size : 2em;
+	font-family:  Arial, Impact, "Arial Black",Verdana, sans-serif;
+	font-style: oblique;
+	font-weight: normal;
+}
+
+.image1
+{
+	float: left;
+}
